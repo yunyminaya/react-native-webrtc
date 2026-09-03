@@ -1,5 +1,7 @@
 name: Simple CI
 
+permissions:
+  contents: read
 on: [pull_request]
 
 jobs:
